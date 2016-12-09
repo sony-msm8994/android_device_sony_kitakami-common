@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += libgui_shim camera.qcom_shim
 # Wlan
 PRODUCT_PACKAGES += macaddrsetup
 
+# WiFi HAL
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
 # Wifi
 PRODUCT_PACKAGES += \
     p2p_supplicant.conf \
