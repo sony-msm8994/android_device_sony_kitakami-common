@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     Tag
 
+# OMX properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.media.treble_omx=false
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8994
