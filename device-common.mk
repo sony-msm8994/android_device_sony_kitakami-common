@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
 
+# SDCard FS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=false
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy \
