@@ -1,2 +1,0 @@
-allow vold diag_data_file:dir { read open ioctl };
-allow vold tee_prop:file { read open getattr };
